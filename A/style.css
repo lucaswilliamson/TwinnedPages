@@ -30,11 +30,12 @@ table{
 a:link{
     color:aqua;
 }
-a:visited{
-    color:gold;
-}
 a:hover{
     color:white;
+}
+
+a:visited{
+    color:gold;
 }
 
 
