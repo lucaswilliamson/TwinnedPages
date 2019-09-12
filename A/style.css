@@ -2,12 +2,67 @@
 
 body
 {
-    color:green;
+    color: whitesmoke;
+    background-color: #99B0B5;
+    font-family:monospace;
 }
 h1{
-    background-image: url(images_A/urbanskyline.webp);
-    height: 250px;
-    padding-top:250px;
+    background-image: url(images_A/skyline_header.png);
+    height: 200px;
+    padding-top:275px;
     text-align:center;
+    font-family: monospace;
+    font-size: 250%;
+    letter-spacing: 0.2em;
         
+}
+th::first-letter{
+    text-transform:uppercase;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+    text-align:center;
+}
+
+a:visited{
+    color:gold;
+}
+a:hover{
+    color:white;
+}
+
+a:link{
+    color:aqua;
+}
+th {
+text-transform: uppercase;
+letter-spacing: 0.2em;
+font-size:85%;
+border-bottom: 1px solid;
+border-top: 1px solid;
+}
+.top{
+    text-transform: uppercase;
+letter-spacing: 0.2em;
+font-size:85%;
+border-bottom: 1px solid;
+border-top: 1px solid;
+    
+}
+#healthy{
+    background-image: url(images_A/apple3.png);
+    height: 276px;
+    width: 258px;
+}
+#notHealthy {
+background-image: url(images_A/cupcake.png);
+height: 276px;
+    width: 304px;
+}
+#deadly {
+    background-image: url(images_A/bones.png);
+    width: 305px;
 }
