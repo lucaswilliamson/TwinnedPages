@@ -2,5 +2,73 @@
 
 body
 {
-    color:blue;
+    color:darkgoldenrod;
+    background-image: url(images_B/rustic%20tile.jpg);
+    font-family: monotype corsiva, cursive;
+    font-weight: bold;
+}
+h1{
+    background-image: url(images_B/fence.jpg);
+    height: 200px;
+    padding-top:275px;
+    text-align:center;
+    font-size: 250%;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+th::first-letter{
+    text-transform:uppercase;
+    
+}
+th{
+    text-transform: uppercase;
+letter-spacing: 0.2em;
+font-size:85%;
+border-bottom: 1px solid;
+border-top: 1px solid;
+    color:#535349;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+    text-align:center;
+}
+#healthy{
+    background-image: url(images_B/rustic%20apple.png);
+    height: 276px;
+    width: 240px;
+}
+#notHealthy {
+background-image: url(images_B/rustic%20cupcake.png);
+height: 276px;
+width: 240px;
+
+}
+#deadly {
+    background-image: url(images_B/tombstone.png);
+    width: 305px;
+}
+.top{
+    text-transform: uppercase;
+letter-spacing: 0.2em;
+font-size:85%;
+border-bottom: 1px solid;
+border-top: 1px solid;
+    
+}
+
+a:visited{
+    color:darkolivegreen;
+}
+a:link{
+    color:#20781D;
+}
+
+a:hover{
+    color:white;
+}
+a{
+font-family:georgia;
 }
