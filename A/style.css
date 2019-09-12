@@ -27,6 +27,9 @@ table{
     text-align:center;
 }
 
+a:visited{
+    color:gold;
+}
 a:link{
     color:aqua;
 }
@@ -34,9 +37,7 @@ a:hover{
     color:white;
 }
 
-a:visited{
-    color:gold;
-}
+
 
 
 th {
